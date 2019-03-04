@@ -59,7 +59,7 @@ public class  Main {
 
 
 
-    private static void step(int i, Board board, List<Integer> countSteps) { //доделать логику проверки на все возможные  варианты
+    private static void step(int i, Board board, List<Integer> countSteps) { 
         int[] point; //массив точек
         int step = 0;
         boolean countFiguresWhite = false;
